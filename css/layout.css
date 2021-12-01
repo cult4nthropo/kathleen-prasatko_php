@@ -1,0 +1,43 @@
+/*====================
+layout.css
+style of layout
+main navigation in a seperate file
+elements of content in content.css
+======================*/
+
+
+
+@media screen {
+	/*style for the application pic */
+	.mainpic {
+		border-radius: 50%;
+	}
+	
+	h1 {
+		padding-top: 1rem;
+	}
+	
+	.contact-data {
+		background-color: white;
+		padding: 1rem;
+	}
+	address {
+		font-style: normal;
+		background-color: white;
+		
+	}
+
+	aside {
+		background-color: white;
+		color: black;
+		margin-bottom: 1rem;
+	}
+	
+	footer {
+		 background-color: #333;
+		 color: white;
+		 flex: 1;
+	 }
+	
+	
+} /* end @media */

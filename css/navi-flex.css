@@ -1,0 +1,59 @@
+/*====================================
+
+navi-flex.css
+horizontal navigation based on display:flex
+
+=========================================*/
+
+@media screen {
+    
+    .site-nav {
+		display: flex;
+        position: -webkit-sticky;
+        position: sticky;
+		flex-direction: row;
+		flex-wrap: wrap;
+        top: 0;
+        padding: 0;
+        margin-top: 1rem;
+		margin-bottom: 1rem;
+		
+		background-color: #333;
+        box-shadow: 0 2px 6px rgba(51, 51, 51, 0.3);
+    }
+
+    .site-nav-list {
+        padding: 0;
+        margin: 0;
+        display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+    }
+
+    .site-nav-list li {
+        list-style: none;
+        margin: 0;
+		display: inline-block;
+    }
+
+    .site-nav-list a.you-are-here {
+        background-color: white;
+        color: #333;
+    }
+
+    .site-nav-list a {
+        padding: 0.5rem;
+        display: block;
+        text-decoration: none;
+        min-width: 72px;
+        text-align: center;
+        background-color: #333;
+        color: white;
+    }
+
+    .site-nav-list a:hover,
+    .site-nav-list a:hover {
+        background: #666;
+        color: white;
+    }
+}

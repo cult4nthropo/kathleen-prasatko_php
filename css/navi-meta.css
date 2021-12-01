@@ -1,0 +1,25 @@
+/*====================================
+
+navi-meta.css
+footer styling
+
+=========================================*/
+
+@media screen {
+    .meta-nav {
+		display: flex;
+		list-style: none;
+		padding: 3rem;
+		margin: 0;
+		justify-content: center;
+	}
+	
+	.meta-nav li {
+		margin-left: 2rem;
+	}
+	
+	.meta-nav li a {
+		color: white;
+		text-decoration: underline;
+	}
+}

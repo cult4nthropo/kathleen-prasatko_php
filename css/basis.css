@@ -1,0 +1,83 @@
+/*=================
+basis.css
+contains main style elements of the site
+text style, element selectors
+=================*/
+
+
+@media screen{
+	/* border-box model for the whole document */
+	html {
+		box-sizing: border-box;
+		overflow: scroll;
+		}
+
+	header {
+		display: flex;
+		justify-content: left;
+		align-items: center;
+	}
+		
+/*style for the main content part */
+		
+	main {
+		hyphens: auto;
+	}
+
+	/*hide elements visually but parsable for screen readers for elements which should not be seen in browser*/
+	.visually-hidden {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		padding: 0;
+		border: 0;
+		margin: -1px;
+		clip-path: none;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+	
+	/*define font color and background color for the whole document */
+	body {
+		display: flex;
+		flex-flow: column;
+		min-height: 100vh;
+		margin: 0;
+		background-color: #02879e;
+		color: #FFFFFF;
+		font-family: Helvetica, Arial, sans-serif;
+	}
+	
+	nav, main, footer,
+	section, article, aside, figcaption, figure {
+		display:block;
+		line-height: 1.25rem;
+	}
+
+	a[href^='#'] {
+		background-color: #333;
+		text-decoration: none;
+		color: white;
+	}
+
+	a :visited {
+		background-color: #333;
+		color: white;
+	}
+	
+	.mainpic {
+		float: right;
+		margin: 1rem;
+		box-shadow: 0 2px 6px rgba(51, 51, 51, 0.3);
+	}
+	.wrapper {
+		margin: 0 auto;
+		width: 70%;
+		padding: 1rem;
+	}
+	main {
+		background-color: #02879e;
+		color: black;
+	}
+
+} /* end @media */

@@ -1,0 +1,114 @@
+/*====================================
+
+navi-responsive.css
+responsive
+
+=========================================*/
+
+@media screen {
+	
+	.menubutton {
+		display: block;
+		background: #333;
+		
+		padding: 0.5rem 0.5rem;
+		border: none;
+		border-radius: 0.25rem;
+		margin: 0;
+		
+	}
+	
+	.menubutton :first-child {
+		height: 1.5rem;
+		width: auto;
+	}
+	
+	.site-nav > .wrapper {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+    .site-nav {
+        margin-top: 1rem;
+		margin-bottom: 1rem;
+		
+		clear: both;
+		
+		background-color: #333;
+        box-shadow: 0 2px 6px rgba(51, 51, 51, 0.3);
+    }
+
+    .site-nav-list {
+        padding: 0;
+        margin: 0;
+        display: block;
+    }
+
+    .site-nav-list li {
+        list-style: none;
+        margin: 0;
+    }
+
+	.site-nav-list a {
+        padding: 0.5rem;
+        display: block;
+        text-decoration: none;
+        min-width: 72px;
+        background-color: #333;
+        color: white;
+    }
+
+    .site-nav-list a.you-are-here {
+        background-color: white;
+        color: #333;
+    }
+
+    .site-nav-list a:hover {
+        background: #666;
+        color: white;
+    }
+	
+	/*navigation list invisible*/
+	.site-nav-list {
+		max-height: 0;
+		overflow: hidden;
+	}
+	
+	/*show navigation list*/
+	.show-menu + .site-nav-list {
+		max-height: 100rem;
+		overflow: visible;
+		display: flex;
+		flex-flow: column;
+		transition: max-height 500ms ease-in-out;
+	}
+	
+
+} /*End @media screen */
+
+@media screen and (min-width: 667px) {
+	.menubutton { display: none;}
+	.site-nav-list {
+		display: flex;
+		flex: 1;
+		text-align: center;
+		max-height: none;
+		overflow: auto;
+		transition: none;
+		
+		flex-flow: row;
+		flex-wrap: wrap;
+	}
+	
+	.site-nav {
+		
+		padding: 0;}
+	
+	.site-nav > .wrapper {padding: 0 1rem;}
+	
+	.site-nav-list li { display: inline-block;}
+	
+	
+	
+}
+

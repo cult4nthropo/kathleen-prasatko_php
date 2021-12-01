@@ -1,0 +1,83 @@
+/*=====================
+form.css
+=======================*/
+
+@media screen {
+	.contact-wrapper {
+		display: inline-flex;
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+	}
+	
+	.contact-wrapper :first-child {
+		flex: 1;
+		margin-bottom: 1rem;
+		background-color: white;
+	}
+
+	.contact-temp {
+		padding-left: 2rem;
+	}
+
+	.mistake {
+		margin: 0 2rem;
+		border: 2px solid #02879e;
+		border-radius: 0.25rem;
+	}
+	
+	form div {
+		margin: 1em;
+		padding-right: 2rem;
+		display: flex;
+		flex-flow: wrap;
+	}
+	
+	
+	label {
+		display: block;
+		font-family: Assistant, Helvetica, Arial, sans-serif;
+		margin-left: 1rem;
+		cursor: pointer;
+		padding-top: 1rem;
+	}
+	
+	.contact-form input[type="text"],
+	.contact-form input[type="email"],
+	.contact-form textarea {
+		min-width: 100%;
+		padding: 0.25rem;
+		margin-left: 1rem;
+		border: 1px solid #02879e;
+		border-radius: 0.25rem;
+		flex: 1;
+	}
+	
+	.contact-form input[type="text"]:focus,
+	.contact-form input[type="email"]:focus,
+	.contact-form textarea:focus {
+		outline: 1.5px solid #02879e;
+	}
+	
+	.contact-form textaria {
+		max-width: 100%;
+		min-height: 8rem;
+	}
+	
+	button {
+		font-size: inherit;
+		font-family: inherit;
+		font-weight: bold;
+		color: #02879e;
+		margin: 1rem;
+		border: 2px solid #02879e;
+		border-radius: 0.25rem;
+	}
+	
+	.socialmedia {
+		list-style: none;
+		padding: 1rem;
+	}
+	
+	
+} /*End @ media*/

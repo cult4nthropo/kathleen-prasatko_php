@@ -23,14 +23,5 @@ style of the page navigation
 		color: white;
 		text-decoration:none;
 	}
-
-	/*highlight the link of the current page */
-	a.you-are-here {
-	text-decoration: underline;
-	color: #333;
-	background-color: white;
-	padding: 8px;
-	margin: 0;
-	}
 	
 } /* end @media */

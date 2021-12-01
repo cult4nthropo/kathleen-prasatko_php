@@ -12,7 +12,7 @@
 		
 	</head>
 
-	<body>
+	<body class="lebenslauf">
 	<div class="wrapper">
 		<header>
 			<img class="mainpic" src="pics/prasatko-kathleen_bewerbungsfoto.jpg" 

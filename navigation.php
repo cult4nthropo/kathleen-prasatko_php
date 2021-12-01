@@ -4,9 +4,11 @@ $navigation = ["index.php" => "Home",
 "code.php" => "Projekte", 
 "contact.php" => "Kontakt", 
 "impressum.php" => "Impressum"];
+
+echo "<ul class='site-nav-list'>";
 foreach($navigation as $menupoint=> $title) {
-    echo "<ul class='site-nav-list'>
-    <li><a href='$menupoint'>$title</a></li>
-    <ul>";
+    echo "<li><a href='$menupoint' class=$title>$title</a></li>";
 };
+echo "</ul>";
+
 ?>

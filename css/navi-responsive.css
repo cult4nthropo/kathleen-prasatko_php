@@ -68,6 +68,19 @@ responsive
         color: white;
     }
 	
+	/*highlight the link of the current page */
+	.home .Home,
+	.projekte .Projekte,
+	.impressum .Impressum,
+	.contact .Kontakt,
+	.lebenslauf .Lebenslauf {
+	text-decoration: underline;
+	color: #333;
+	background-color: white;
+	padding: 8px;
+	margin: 0;
+	}
+	
 	/*navigation list invisible*/
 	.site-nav-list {
 		max-height: 0;

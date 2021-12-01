@@ -11,7 +11,7 @@
 		
 	</head>
 
-	<body>
+	<body class="contact">
 	<div class="wrapper">
 		<header>
 			<img class="mainpic" src="pics/prasatko-kathleen_bewerbungsfoto.jpg" 

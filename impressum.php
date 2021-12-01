@@ -11,7 +11,7 @@
 		
 	</head>
 
-	<body>
+	<body class="impressum">
 	<div class="wrapper">
 		<header>
 			<h1>Kathleen Prasatko</h1>

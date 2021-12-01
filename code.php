@@ -29,6 +29,18 @@
 		<h2 class="visually-hidden">Codesnippets</h2>
 		<article class="content">
 			<h3>Kleine Beispiele meines JavaScript Codes:</h3>
+		<?php
+		$tasks = [
+			'scan' => "Dateigröße Scan",
+			'sound' => "Dateigröße Soundfile",
+			'video' => "Dateigröße Videofile"
+		];
+		echo "<select name='codesnippets'>\n";
+			foreach ($tasks as $task => $taskname){
+				echo "<option id='$task'>$taskname</option>";
+			}
+		echo "</select>\n";
+		?>
 			<p>Meinen Code können Sie hier sehen: <a href="https://github.com/cult4nthropo">Github</a><br/>
 			Die meisten Dinge schreibe ich zunächst in Python. Aktuell arbeite ich noch an der JavaScript-Übersetzung 
 			und der Code liegt nur in Python auf GitHub vor.<br/><br/>

@@ -31,25 +31,89 @@
 		<main>
 			<h3 class="contact-temp">Nur zur Ansicht</h3>
 			<p class="contact-temp">Aktiviert ist das Formular erst, wenn ich das Backend fertig habe.</p>
-			<form class="contact-form" action="#" method="post">
-				<div>
-					<label for="name">Ihr Name: </label>
-					<input type="text" id="name" name="name">
-				</div>
-				<div>
-					<label for="email">Ihre Emailadresse: </label>
-					<input type="email" id="email" name="email">
-					<div id="emailFailure"></div>
-				</div>
-				<div>
-					<label for="message">Ihre Nachricht: </label>
-					<textarea id="message" name="message" cols="20" rows="5"></textarea>
-				</div>
-				<div>
-					<button class="button" type="submit">Abschicken</button>
-				</div>
-			</form>
-		
+				<?php
+					// shows menu only if it is not submitted yet
+					if (!isset($_POST["name"])){
+				?>
+						<form class="contact-form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+							<div>
+								<label for="name">Ihr Name: </label>
+								<input type="text" id="name" name="name">
+							</div>
+							<div>
+								<label for="email">Ihre Emailadresse: </label>
+								<input type="email" id="email" name="email">
+								<div id="emailFailure"></div>
+							</div>
+							<div>
+								<label for="message">Ihre Nachricht: </label>
+								<textarea id="message" name="message" cols="20" rows="5"></textarea>
+							</div>
+							<div>
+								<input class="button" type="submit" name="submit">Abschicken</button>
+							</div>
+						</form>
+					<?php
+					}else{
+						//shows submit message after submitting the form
+						echo "<p class='contact-temp'>Vielen Dank! <br></p>";
+						echo "<p class='contact-temp'>Sie haben folgende Nachricht übermittelt: <br></p>";
+						$message = htmlspecialchars($_POST['message']);
+						htmlspecialchars($_POST['message']);
+						echo "<p class='contact-temp'>$message</p>";
+						
+						$mailto = "name@domain.de";
+						$sendermail_answer = true;
+						$name_from_mailfield = "email";
+						
+						$recipient = "recipient@domain.de";
+						$mail_cc = "kathleen.prasatko@gmx.de";
+						$subject = "New Contact Form";
+						
+						$url_ok = "https://www.kathleen.prasatko.de/contact.php";
+						
+						$ignore_fields = array('submit');
+						
+						$name_day = array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+						$num_day = date("w");
+						$day = $name_day[$num_day];
+						$year = date("Y");
+						$n = date("d");
+						$month = date("m");
+						$time = date("H:i");
+						
+						$msg = ":: Send at $day, the $n.$month.$year - $time o'clock :: \n\n";
+						
+						foreach($_POST as $name => $value) {
+							if (in_array($name, $ignore_fields)) {
+								continue;
+							}
+							$msg .= "::: $name :::\n$value\n\n";
+						}
+						
+					if ($sendermail_answer and isset($_POST[$name_from_mailfield]) and filter_var($_POST[$name_from_mailfield], FILTER_VALIDATE_EMAIL)) {
+					$email_from = $_POST[$name_from_mailfield];
+					}
+					
+					$header = "From: $email_from";
+					
+					if (!empty($mail_cc)){
+						$header .= "\n";
+						$header .= "Cc: $mail_cc";
+					}
+					
+					$header .= "\nContent-type: text/plain; charset=utf-8";
+					
+					$sendmail = mail($recipient,$subject,$msg,$header);
+					
+					if($sendmail){
+						header("Location: ".url_ok);
+						exit();
+					}else{
+						echo "Something went wrong";
+					}
+					}
+					?>
 		</main>
 		<aside>
 			<ul class="socialmedia">

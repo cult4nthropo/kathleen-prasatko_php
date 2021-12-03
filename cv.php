@@ -57,8 +57,12 @@
 					<h4>Studium der Informatik (September 2018 - Juli 2019)</h4>
 					<p>
 						FFHS Zürich/Regensdorf, Fernstudium ohne Abschluss <br>
-						Grundkenntnisse: Webentwicklung mit HTML5, CSS3, JavaScript, Java, Python, Logik, 
-						Betriebssysteme, Serverkonfiguration
+						Grundkenntnisse: Webentwicklung mit HTML5, CSS3, JavaScript <br>
+						Grundkenntnisse: Java, Python, Logik, Betriebssysteme, Serverkonfiguration
+					</p>
+					<h4>Französisch "Business", B2 (Juni 2016 - Dezember 2016</h4>
+					<p>
+						Speexx digital publishing AG (CH/online)
 					</p>
 					<h4>Projektmanagement Fachfrau IPMA D (Nov 2012 - Februar 2013)</h4>
 					<p>
@@ -69,10 +73,12 @@
 				<article>
 					<h3 class="cv-headings"><i class="fas fa-cogs"></i> Arbeitserfahrung</h3>
 					<article class="content">
-					<h4>Kundenbetreuung technischer Support (Juni 2013 - Juli 2021)</h4>
+					<h4>Call Center Agentin (Juni 2013 - Juli 2021)</h4>
 					<p>
 						Capita Customer Services AG, Tägerwilen (CH) <br>
-						Technischer Support 1st und 2nd Level, Umgang mit Ticketing System
+						Technischer Support 1st und 2nd Level <br>
+						Umgang mit Ticketing System <br>
+						Administrativer Support und Beratung <br>
 					</p>
 					<h4>Verwaltungskraft (August 2010 - Juli 2011)</h4>
 					<p>
@@ -82,7 +88,7 @@
 					<h4>Studentische Hilfskraft (April 2006 - Juli 2010</h4>
 					<p>
 						Eberhard-Karls-Universität Tübingen <br>
-						Sekretariats- und Bibliotheksarbeit
+						Sekretariats- und Bibliotheksarbeit, Kommunikation mit internationalen Zeitschriftenverlagen
 					</p>
 					</article>
 				</article>
@@ -118,7 +124,7 @@
 						Themen der Informatik und Programmierung <br>
 						Literatur und Sprachen <br>
 						Gesellschaftliche Zusammenhänge in Wissenschaft und Praxis <br>
-						Politische, wissenschaftliche, philosophische und technische Podcasts
+						Politische, wissenschaftliche und philosophische Podcasts
 					</p>
 					</article>
 				</article>

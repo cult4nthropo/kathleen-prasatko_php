@@ -1,5 +1,4 @@
 "use strict";
-
 var userName = document.getElementById("name");
 var userMail = document.getElementById("email");
 
@@ -7,11 +6,12 @@ if(userMail) userMail.addEventListener("blur", checkForm);
 
 var form = document.getElementsByTagName("form")[0];
 
-form.addEventListener("submit", function( evt){
+/*
+form.addEventListener("submit", function(evt){
     evt.preventDefault();
     if( checkForm() ) form.submit();
 
-})
+})*/
 
 function checkForm(){
     var validated = true;

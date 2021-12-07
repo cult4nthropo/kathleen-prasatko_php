@@ -92,7 +92,7 @@
 						}
 						
 					if ($sendermail_answer and isset($_POST[$name_from_mailfield]) and filter_var($_POST[$name_from_mailfield], FILTER_VALIDATE_EMAIL)) {
-					$email_from = $_POST[$name_from_mailfield];
+						$email_from = $_POST[$name_from_mailfield];
 					}
 					
 					$header = "From: $email_from";

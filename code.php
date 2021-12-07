@@ -41,16 +41,17 @@
 			}
 		echo "</select>\n";
 		?>
-			<p>Meinen Code können Sie hier sehen: <a href="https://github.com/cult4nthropo">Github</a><br/>
-			Die meisten Dinge schreibe ich zunächst in Python. Aktuell arbeite ich noch an der JavaScript-Übersetzung 
-			und der Code liegt nur in Python auf GitHub vor.<br/><br/>
+			<p>
+			Meinen Code können Sie hier sehen: <a href="https://github.com/cult4nthropo">Github</a><br/>
 			Neben den Sprachen, die ich bei der Umschulung lerne, beschäftige ich mich mit weiteren Techniken der Programmierung.
 			So bin ich auf die Idee gekommen, diese Website zu entwickeln und als Grundlage der Präsentation zu gestalten.
 			Die Python-Projekte, die auf GitHub zu sehen sind, habe ich begonnen, um meine Kenntnisse über das geforderte Maß hinaus
 			zu entwickeln. <br/>
 			Um mir neben Python, C# und SQL noch weitere Kenntnisse anzueignen, lerne ich auch Techniken der Webentwicklung und übersetze 
-			die Python-Projekte in JavaScript. Aktuell lerne ich JavaScript noch, sodass diese Beispiele hier noch fehlen - sie werden aber 
-			in Kürze folgen.
+			die Python-Projekte in JavaScript. Aktuell lerne ich Java noch, sodass diese Beispiele hier noch fehlen - sie werden aber 
+			in Kürze folgen. <br/>
+			Um wirklich zu lernen und besser zu werden, denke ich mir kleine Programmierprojekte aus. Diese sind als \"Lernprojekte\" zu betrachten 
+			und ändern sich beständig mit meinem Wissensstand.
 		 </p>
 		 <noscript>Wenn Sie JavaScript deaktiviert werden, können Sie meinen Code auch <a href="https://github.com/cult4nthropo">auf Github</a> einsehen.</noscript>
 		</article>

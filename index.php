@@ -34,24 +34,26 @@
 				Nach dem Studium hat es mich immer mehr Richtung IT gezogen. und ich habe mich beständig mit diversen Themen aus diesem doch
 			 	sehr großen Themenfeld beschäftigt. Doch wo soll man dabei stehenbleiben: Datenschutz und Datensicherheit? Webentwicklung? 
 				Kryptographie? Immer wieder habe ich begonnen, verschiedene Programmiersprachen zu erlernen und bin dabei immer wieder vom 
-				Hundertstel ins Tausendstel gekommen, habe mich im Tutorial-Dschungel verlaufen und habe mich letztendlich doch wieder darauf konzentriert, 
-				meinen Job gut zu machen. Nach dem erfolgreichen Ethnologie-Studium habe ich fast 9 Jahre im Kundenservice gearbeitet und dabei 
+				Hundertstel ins Tausendstel gekommen, habe mich im Tutorial-Dschungel verlaufen, den Überblick verloren und wieder bei Null angefangen.
+				Egal wie tief ich mich verlaufen habe - losgelassen hat die Thematik mich nie wieder so richtig. Nach dem erfolgreichen Ethnologie-Studium habe ich fast 9 Jahre im Kundenservice gearbeitet und dabei 
 				Kund*innen technisch beraten. Dabei haben sich gewisse Kompetenzen im Bereich der Kommunikation und des Eskalationsmanagements 
 				herausgebildet. <br/>
 				Allerdings war mir das nicht genug der Technik. Die Callcenter-Athmosphäre auf Dauer nicht das Richtige und eine neue Herausforderung 
-				wurde mehr als nur notwendig. Die Umschulung zur Fachinformatikerin für Anwendungsentwicklung kam dabei wie gerufen. Endlich kann ich 
+				wurde immer notwendiger. Die Umschulung zur Fachinformatikerin für Anwendungsentwicklung kam dabei wie gerufen. Endlich kann ich 
 				mich den ganzen Tag mit den Dingen beschäftigen, die mich wirklich interessieren und mir systematisch immer mehr Wissen aneignen und 
-				Fähigkeiten entwickeln. </p>
+				Fähigkeiten entwickeln. Diese Website ist ein kleiner Teil dieser Beschäftigung - eigentlich eher eine Plattform und eine sehr 
+				willkommene Möglichkeit, weitere Fähigkeiten und Kenntnisse zu erwerben. Dabei ist alles immer im Wandel begriffen. Je mehr ich lerne, 
+				desto mehr werde ich anpassen und hinzufügen.</p>
 			</section>
 			<section class="content">
 			<h3> Was mich motiviert</h3>
 				<p>Lernen war schon immer eine sehr große Freude für mich. Das Gefühl, Kompetenz zu entwickeln und zu spüren, wie sich Knoten im Hirn 
-					auflösen ist eine große Motivation. Noch weiß ich nicht, wo genau es mich hinverschlägt. Welche Programmiersprachen werden die sein, 
-					mit denen ich am Besten und liebsten arbeite? Für welche Bereiche werde ich entwickeln? <br/>
-					Aber eines ist klar: ich möchte meinen Beitrag leisten für eine solidarische und digital kompetente Gesellschaft. Ich möchte nicht am 
-					Menschen vorbei entwickeln, sondern mit Menschen und für Menschen. Teamarbeit mit motivierten Kolleg*innen, die sich gegenseitig fördern, 
-					unterstützen und verzeihen, wenn Fehler passieren - das wäre ein Traum. Der Glaube diesen Traum mit Anwendungsentwicklung leben zu können, 
-					ist etwas, was mich zudem außerordentlich motiviert.
+				auflösen ist eine große Motivation. Noch weiß ich nicht, wo genau es mich hinverschlägt. Welche Programmiersprachen werden die sein, 
+				mit denen ich am Besten und liebsten arbeite? Für welche Bereiche werde ich entwickeln? <br/>
+				Aber eines ist klar: ich möchte meinen Beitrag leisten für eine solidarische und digital kompetente Gesellschaft. Ich möchte nicht am 
+				Menschen vorbei entwickeln, sondern mit Menschen und für Menschen. Teamarbeit mit motivierten Kolleg*innen, die sich gegenseitig fördern, 
+				unterstützen und verzeihen, wenn Fehler passieren - das wäre ein Traum. Der Glaube diesen Traum mit Anwendungsentwicklung leben zu können, 
+				ist etwas, was mich zudem außerordentlich motiviert.
 				</p>
 			</section>
 			

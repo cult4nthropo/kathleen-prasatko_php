@@ -28,7 +28,7 @@
 		<main>
 		<h2 class="visually-hidden">Codesnippets</h2>
 		<article class="content">
-			<h3>Kleine Beispiele meines JavaScript Codes:</h3>
+			<h3>Kleine Beispiele meines Java Codes:</h3>
 		<?php
 		$tasks = [
 			'scan' => "Dateigröße Scan",

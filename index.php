@@ -50,8 +50,13 @@
 				<p>Lernen war schon immer eine sehr große Freude für mich. Das Gefühl, Kompetenz zu entwickeln und zu spüren, wie sich Knoten im Hirn 
 				auflösen ist eine große Motivation. Noch weiß ich nicht, wo genau es mich hinverschlägt. Welche Programmiersprachen werden die sein, 
 				mit denen ich am Besten und liebsten arbeite? Für welche Bereiche werde ich entwickeln? <br/>
-				Aber eines ist klar: ich möchte meinen Beitrag leisten für eine solidarische und digital kompetente Gesellschaft. Ich möchte nicht am 
-				Menschen vorbei entwickeln, sondern mit Menschen und für Menschen. Teamarbeit mit motivierten Kolleg*innen, die sich gegenseitig fördern, 
+				Aber eines ist klar: ich möchte meinen Beitrag leisten für eine lebenswerte und solidarische Gesellschaft. Gute Tools, mit denen auch 
+				digital kommuniziert werden kann, gehören für mich dabei dazu. Es ist kaum mehr denkbar, dass Daten nicht über den physisch wahrnehmbaren
+				Raum hinweg ausgetauscht werden müssen. Die Tools dafür müssen vielfältigen Ansprüchen genügen. Nicht zuletzt Sicherheitsaspekte aber auch - 
+				und das finde ich unglaublich wichtig und spannend - den gefühlten Bedürfnissen der Menschen, die sie benutzen. Da spielt Barrierefreiheit 
+				eine wichtige Rolle, das Design, kulturelle Aspekte wie Gewohnheiten und noch vieles mehr. Technik und Gesellschaft vereinen und durch Technik 
+				dazu beizutragen, dass eine bessere Kommunikation auf vielen ebenen stattfinden kann ist eine meiner Hauptmotivationen. Diese spannenden Felder 
+				gemeinsam mit anderen Menschen in Teamarbeit zu vereinen, mit motivierten Kolleg*innen, die sich gegenseitig fördern und fordern, 
 				unterstützen und verzeihen, wenn Fehler passieren - das wäre ein Traum. Der Glaube diesen Traum mit Anwendungsentwicklung leben zu können, 
 				ist etwas, was mich zudem außerordentlich motiviert.
 				</p>

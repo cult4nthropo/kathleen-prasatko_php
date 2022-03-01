@@ -5,8 +5,6 @@ style.css
 - imports all other style sheets
 ==============================*/
 
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
-
 @import url(basis.css);
 @import url(layout.css);
 /*@import url(navi-inline.css);*/

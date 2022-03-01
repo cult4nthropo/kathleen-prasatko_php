@@ -66,7 +66,7 @@
 						$sendermail_answer = true;
 						$name_from_mailfield = "email";
 						
-						$recipient = "recipient@domain.de";
+						$recipient = "sayhello@kathleen-prasatko.de";
 						$mail_cc = "kathleen.prasatko@gmx.de";
 						$subject = "New Contact Form";
 						
